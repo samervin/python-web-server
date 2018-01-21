@@ -1,9 +1,9 @@
-from flask import Flask
+import flask
 import site_functions
 from root import root
 from blog import blog
 
-server = Flask(__name__)
+server = flask.Flask(__name__)
 
 
 @server.route('/')
@@ -43,6 +43,11 @@ def route_reading_list():
 @server.route('/resume')
 def route_resume():
     return 'resume'
+
+
+@server.route('/favicon.ico')
+def route_favicon():
+    return flask.send_from_directory(server.root_path, 'favicon.ico')
 
 
 if __name__ == '__main__':
