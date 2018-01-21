@@ -26,7 +26,7 @@ def route_blog():
 def route_blog_post(post_name):
     site_header = site_functions.get_site_header()
     blog_header = site_functions.md_to_html(blog.get_blog_header_markdown())
-    blog_post = site_functions.md_to_html(blog.get_blog_post_html(post_name))
+    blog_post = blog.get_blog_post_html(post_name)
     return site_header + blog_header + blog_post
 
 
