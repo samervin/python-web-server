@@ -1,7 +1,7 @@
-import markdown
+import markdown2
 
-# Meta extension used for metadata on markdown files
-md = markdown.Markdown(extensions=['markdown.extensions.meta'])
+# Metadata extension allows for metadata definitions in Markdown files
+md = markdown2.Markdown(extras=['metadata'])
 
 
 def get_site_header():
