@@ -1,1 +1,1 @@
-[Root](/) __Blog__
+[Root](/) __Blog__ [Podcast](/podcast/)

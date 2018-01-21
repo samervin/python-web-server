@@ -2,6 +2,7 @@ import flask
 import site_functions
 from root import root
 from blog import blog
+from podcast import podcast
 
 server = flask.Flask(__name__)
 
@@ -32,17 +33,21 @@ def route_blog_post(post_name):
 
 @server.route('/podcast/')
 def route_podcast():
-    return 'podcast'
+    site_header = site_functions.get_site_header()
+    podcast_header = site_functions.md_to_html(podcast.get_podcast_header_markdown())
+    return site_header + podcast_header + 'podcast home'
 
 
 @server.route('/reading-list/')
 def route_reading_list():
-    return 'reading list'
+    site_header = site_functions.get_site_header()
+    return site_header + 'reading list home'
 
 
 @server.route('/resume')
 def route_resume():
-    return 'resume'
+    site_header = site_functions.get_site_header()
+    return site_header + 'resume'
 
 
 @server.route('/favicon.ico')
