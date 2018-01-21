@@ -30,6 +30,10 @@ def get_blog_home_markdown():
     return post_list_str
 
 
-def get_blog_post_markdown(post_name):
-    with open('blog/posts/{}.md'.format(post_name)) as post:
-        return post.read()
+def get_blog_post_html(post_name):
+    with open('blog/posts/{}.md'.format(post_name)) as post_file:
+        post_md = post_file.read()
+        post_html = site_functions.md_to_html(post_md)
+        post_title = post_html.metadata.get('title')
+        title_html = '<title>{}</title>'.format(post_title)
+        return title_html + post_html
