@@ -27,7 +27,7 @@ def get_blog_home_markdown():
     post_list_str = ''
     for post in post_list:
         post_list_str += '\n- [{}]({})'.format(post.title, post.url_slug)
-    return post_list_str
+    return blog_opener + post_list_str
 
 
 def get_blog_post_html(post_name):
