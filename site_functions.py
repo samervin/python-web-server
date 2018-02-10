@@ -5,7 +5,7 @@ md = markdown2.Markdown(extras=['metadata', 'markdown-in-html'])
 
 
 def get_site_header():
-    with open('site_pages\header.md') as header:
+    with open('site_pages/header.md') as header:
         content = header.read()
         return md_to_html(content)
 
