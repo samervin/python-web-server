@@ -2,3 +2,7 @@ div.widen p {
     display: flex;
     justify-content: space-around
 }
+
+a {
+    text-decoration: none;
+}
