@@ -63,7 +63,11 @@ To set up the Python web server on the EC2 instance ([ref](http://exploreflask.c
     - If venv threw an error above, run `curl https://bootstrap.pypa.io/get-pip.py | python3`
 - `pip3 install -r requirements.txt`
 - `gunicorn --bind 0.0.0.0:5000 server:server`
+    - You can add `-D` to run as a daemon and `-p server.pid` to save the process ID to a file.
 
 To set up Nginx:
 
-(coming soon)
+- `sudo yum install nginx`
+- Copy and paste the relevant parts of `nginx.conf` into `/etc/nginx/nginx.conf`
+- `sudo service nginx reload`
+- Now, instead of the previous gunicorn command, run `gunicorn --bind 127.0.0.1:8000 server:server -D -p server.pid`
