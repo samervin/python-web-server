@@ -34,7 +34,7 @@ To set up an EC2 instance:
     - Allow HTTP access from your IP. (You'll change this later.)
     - For convenience, you can also allow port 5000 (Flask's default dev port) from your IP.
 - If you don't have a key pair, create one now.
-    - Save the `.pem` file in a safe location.
+    - Save the `.pem` file in a safe location. This repository's `.gitignore` will ignore `ssh-key.pem` if you want to keep it in the same place.
 
 To set up DNS using Route53:
 
