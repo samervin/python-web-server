@@ -72,3 +72,9 @@ To set up Nginx:
 - Copy and paste the relevant parts of `nginx.conf` into `/etc/nginx/nginx.conf`
 - `sudo service nginx reload`
 - Now, instead of the previous gunicorn command, run `gunicorn --bind 127.0.0.1:8000 server:server -D -p server.pid`
+
+To update the site after pushing to `master`:
+
+- SSH on to the instance.
+- `cd python-web-server`
+- `git pull`. That's it!
