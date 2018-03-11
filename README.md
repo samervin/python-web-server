@@ -78,4 +78,9 @@ To update the site after pushing to `master`:
 
 - SSH on to the instance.
 - `cd python-web-server`
-- `git pull`. That's it!
+- `git pull`
+
+Depending on the changes you made, you may be done, or you may need to kill the server and restart.
+
+- To kill the server: ``kill `cat server.pid` ``
+- Restart the server using the above gunicorn command.
