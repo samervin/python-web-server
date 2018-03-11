@@ -13,6 +13,7 @@ To start the server locally ([ref](http://flask.pocoo.org/docs/0.12/quickstart/)
     - `export FLASK_APP=server.py` on Unix
 - `set FLASK_DEBUG=1` on Windows to enable live reloading and verbose debugging
     - `export FLASK_DEBUG=1` on Unix
+- (Alternatively, you can run `reference/windows-environment.cmd` in Windows environments, to set env vars for you.)
 - `flask run`
 - Open either `localhost:5000` or `127.0.0.1:5000` to browse and generate logs
 
@@ -31,7 +32,7 @@ To set up an EC2 instance:
 - Confirm the storage settings; again, the default of an 8 GB root SSD is probably fine.
 - If you haven't created a security group, create one now.
     - Allow SSH access from your IP.
-    - Allow HTTP access from your IP. (You'll change this later.)
+    - Allow HTTP access from your IP. (You can change this later to allow HTTP access from the whole world.)
     - For convenience, you can also allow port 5000 (Flask's default dev port) from your IP.
 - If you don't have a key pair, create one now.
     - Save the `.pem` file in a safe location. This repository's `.gitignore` will ignore `ssh-key.pem` if you want to keep it in the same place.
@@ -69,7 +70,7 @@ To set up the Python web server on the EC2 instance ([ref](http://exploreflask.c
 To set up Nginx:
 
 - `sudo yum install nginx`
-- Copy and paste the relevant parts of `nginx.conf` into `/etc/nginx/nginx.conf`
+- Copy and paste the relevant parts of `reference/nginx.conf` into `/etc/nginx/nginx.conf`
 - `sudo service nginx reload`
 - Now, instead of the previous gunicorn command, run `gunicorn --bind 127.0.0.1:8000 server:server -D -p server.pid`
 
