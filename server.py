@@ -1,6 +1,6 @@
 import flask
 import site_functions
-from root import root
+from home import home
 from blog import blog
 from podcast import podcast
 
@@ -8,12 +8,12 @@ server = flask.Flask(__name__)
 
 
 @server.route('/')
-def route_root():
+def route_home():
     css_header = '<head><style>{}</style></head>'.format(site_functions.get_site_css())
     site_header = site_functions.get_site_header()
-    root_header = site_functions.md_to_html(root.get_root_header_markdown())
-    body = site_functions.md_to_html(root.get_root_markdown())
-    return css_header + site_header + root_header + body
+    home_header = site_functions.md_to_html(home.get_home_header_markdown())
+    body = site_functions.md_to_html(home.get_home_markdown())
+    return css_header + site_header + home_header + body
 
 
 # Brief note on routes: /route/ should be used for "folders", /route should be used for "files"
@@ -58,7 +58,7 @@ def route_resume():
 
 @server.route('/favicon.ico')
 def route_favicon():
-    return flask.send_from_directory(server.root_path, 'favicon.ico')
+    return flask.send_from_directory(server.home_path, 'favicon.ico')
 
 
 if __name__ == '__main__':
