@@ -4,15 +4,16 @@ import markdown2
 md = markdown2.Markdown(extras=['metadata', 'markdown-in-html'])
 
 
-def get_site_header():
+def md_to_html(md_content: str):
+    return md.convert(md_content)
+
+def get_site_html_header():
     with open('meta/site_header.md') as header:
         content = header.read()
         return md_to_html(content)
 
-def md_to_html(md_content: str):
-    return md.convert(md_content)
-
-def get_site_css():
+def get_site_css_header():
     with open('meta/site.css') as css_file:
         css_content = css_file.read()
-        return css_content
+    css_header = '<head><style>{}</style></head>'.format(css_content)
+    return css_header
