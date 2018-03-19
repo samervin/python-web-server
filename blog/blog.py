@@ -26,7 +26,7 @@ def get_blog_posts_list():
         for filename in files:
             with open('blog/posts/{}'.format(filename)) as post_file:
                 post_md = post_file.read()
-            post_html = site_utilities.md_to_html(post_md)
+            post_html = site_utilities.md_with_metadata_to_html(post_md)
             post_datetime = post_html.metadata.get('datetime')
             post_title = post_html.metadata.get('title')
             url_slug = filename.replace('.md', '')
@@ -38,7 +38,7 @@ def get_blog_posts_list():
 def get_blog_post_html(post_name):
     with open('blog/posts/{}.md'.format(post_name)) as post_file:
         post_md = post_file.read()
-        post_html = site_utilities.md_to_html(post_md)
+        post_html = site_utilities.md_with_metadata_to_html(post_md)
         post_title = post_html.metadata.get('title')
         browser_title_html = '<title>{}</title>'.format(post_title)
         blog_title_html = site_utilities.md_to_html('### {}'.format(post_title))

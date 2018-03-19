@@ -36,9 +36,11 @@ def route_favicon():
 def _create_html_page(*contents):
     css_header = site_utilities.get_site_css_header()
     site_header = site_utilities.get_site_html_header()
+    site_footer = site_utilities.get_site_html_footer()
     page = css_header + site_header
     for content in contents:
         page += content
+    page += site_footer
     return page
 
 
