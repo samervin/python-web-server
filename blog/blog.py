@@ -4,11 +4,12 @@ from collections import namedtuple
 
 Post = namedtuple('Post', ['filename', 'url_slug', 'markdown', 'html', 'datetime', 'title'])
 
-def get_blog_header_markdown():
+def _get_blog_header_html():
     with open('blog/blog_header.md') as blog_header:
-        return blog_header.read()
+        content = blog_header.read()
+    return site_utilities.md_to_html(content)
 
-def get_blog_home_markdown():
+def get_blog_home_html():
     with open('blog/blog_home.md') as blog_home:
         blog_opener = blog_home.read()
 
@@ -17,7 +18,9 @@ def get_blog_home_markdown():
     post_list_str = ''
     for post in post_list:
         post_list_str += '\n- [{}]({})'.format(post.title, post.url_slug)
-    return blog_opener + post_list_str
+    header = _get_blog_header_html()
+    content = site_utilities.md_to_html(blog_opener + post_list_str)
+    return header + content
 
 
 def get_blog_posts_list():
@@ -38,13 +41,14 @@ def get_blog_posts_list():
 def get_blog_post_html(post_name):
     with open('blog/posts/{}.md'.format(post_name)) as post_file:
         post_md = post_file.read()
-        post_html = site_utilities.md_with_metadata_to_html(post_md)
-        post_title = post_html.metadata.get('title')
-        browser_title_html = '<title>{}</title>'.format(post_title)
-        blog_title_html = site_utilities.md_to_html('### {}'.format(post_title))
-        footer_md = get_blog_post_footer_markdown(post_name)
-        footer_html = site_utilities.md_to_html(footer_md)
-        return browser_title_html + blog_title_html + post_html + footer_html
+    post_html = site_utilities.md_with_metadata_to_html(post_md)
+    post_title = post_html.metadata.get('title')
+    browser_title_html = '<title>{}</title>'.format(post_title)
+    blog_title_html = site_utilities.md_to_html('### {}'.format(post_title))
+    footer_md = get_blog_post_footer_markdown(post_name)
+    footer_html = site_utilities.md_to_html(footer_md)
+    header = _get_blog_header_html()
+    return header + browser_title_html + blog_title_html + post_html + footer_html
 
 
 def get_blog_post_footer_markdown(post_name):
