@@ -10,18 +10,22 @@ md_with_metadata = markdown2.Markdown(extras=['metadata', 'markdown-in-html'])
 def md_to_html(md_content: str, md_extras=None):
     return md.convert(md_content)
 
+
 def md_with_metadata_to_html(md_content: str):
     return md_with_metadata.convert(md_content)
+
 
 def get_site_html_header():
     with open('meta/site-header.md') as header:
         content = header.read()
     return md_to_html(content)
 
+
 def get_site_html_footer():
     with open('meta/site-footer.md') as footer:
         content = footer.read()
     return md_to_html(content)
+
 
 def get_site_css_header():
     with open('meta/site.css') as css_file:

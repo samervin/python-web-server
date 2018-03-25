@@ -1,11 +1,13 @@
 from meta import site_utilities
 
+
 def get_home_html():
     with open('home/home.md') as home:
         home = home.read()
     home_html = site_utilities.md_to_html(home)
     header_html = _get_home_header_html()
     return header_html + home_html
+
 
 def _get_home_header_html():
     with open('home/home_header.md') as home_header:

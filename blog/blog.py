@@ -4,6 +4,7 @@ from collections import namedtuple
 
 Post = namedtuple('Post', ['filename', 'url_slug', 'markdown', 'html', 'datetime', 'title'])
 
+
 def get_blog_post_html(post_name):
     with open('blog/posts/{}.md'.format(post_name)) as post_file:
         post_md = post_file.read()
@@ -16,10 +17,12 @@ def get_blog_post_html(post_name):
     header = _get_blog_header_html()
     return header + browser_title_html + blog_title_html + post_html + footer_html
 
+
 def _get_blog_header_html():
     with open('blog/blog_header.md') as blog_header:
         content = blog_header.read()
     return site_utilities.md_to_html(content)
+
 
 def get_blog_home_html():
     with open('blog/blog_home.md') as blog_home:
@@ -53,7 +56,7 @@ def _get_blog_post_footer_markdown(post_name):
     with open('blog/blog_post_footer.md') as footer_file:
         footer_md = footer_file.read()
     post_list = _get_blog_posts_list()
-    
+
     for index, post in enumerate(post_list):
         if post.url_slug == post_name:
             break
