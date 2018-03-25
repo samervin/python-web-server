@@ -21,8 +21,6 @@ def get_site_html_header():
 def get_site_html_footer():
     with open('meta/site-footer.md') as footer:
         content = footer.read()
-        # import pdb; pdb.set_trace()
-        print(md_to_html(content))
         return md_to_html(content)
 
 def get_site_css_header():

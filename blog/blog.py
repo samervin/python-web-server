@@ -22,7 +22,7 @@ def get_blog_home_markdown():
 
 def get_blog_posts_list():
     post_list = []
-    for root, directories, files in os.walk('blog/posts'):
+    for _, _, files in os.walk('blog/posts'):
         for filename in files:
             with open('blog/posts/{}'.format(filename)) as post_file:
                 post_md = post_file.read()
