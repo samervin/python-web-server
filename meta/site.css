@@ -3,6 +3,17 @@ div.widen p {
     justify-content: space-around
 }
 
-a {
+a:link, a:visited {
     text-decoration: none;
+    color: rgb(30, 190, 30)
+}
+
+a:hover {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+a:active {
+    text-decoration: none;
+    color: orange;
 }
