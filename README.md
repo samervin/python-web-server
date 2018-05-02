@@ -50,7 +50,7 @@ To set up DNS using Route53:
     - Paste the IP address into the Value field.
 - Test by accessing the domain name (samerv.in in my case). You should see "refused to connect" (and not any other DNS errors).
     - Remember DNS changes can take minutes to propogate, and name server changes can take hours.
-- Side note: you can choose to add a CNAME for www.(your domain) with a value of (your domain) as well.
+- Side note: you can choose to add a CNAME for `www.(your domain)` with a value of `(your domain)` as well.
 
 To set up the Python web server on the EC2 instance ([ref](http://exploreflask.com/en/latest/deployment.html)):
 
