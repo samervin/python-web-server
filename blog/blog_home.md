@@ -1,1 +1,1 @@
-All blog posts I've written, ordered from oldest to newest.
+All blog posts I've written. Newer posts are at the top.
