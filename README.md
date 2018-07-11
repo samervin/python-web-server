@@ -19,6 +19,12 @@ To start the server locally ([ref](http://flask.pocoo.org/docs/0.12/quickstart/)
 
 ---
 
+## Running unit tests
+
+From the root directory, run `python -m unittest discover tests`.
+
+---
+
 ## AWS set up
 
 Note: these directions are not complete and are specific to my requirements. Follow at your own risk.
