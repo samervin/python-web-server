@@ -62,6 +62,7 @@ To set up the Python web server on the EC2 instance ([ref](http://exploreflask.c
 
 - SSH on to the instance, using your `.pem` file and the public DNS of the instance.
     - `ssh -i <key-pair>.pem ec2-user@<public-dns>`
+    - If you receive an error about an unprotected private key file, run `chmod 700 <key-pair>.pem`
 - `sudo yum install python36 git` (or your preferred package manager + Python version)
 - `git clone https://github.com/samervin/python-web-server`
 - `cd python-web-server`
