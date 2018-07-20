@@ -34,8 +34,8 @@ Below the break I'll record some thoughts I have on each game as I get around to
 - Double Dragon II
 - __Dr. Mario__: One of the best 2-player competitive games I've played. Ever. Seriously! Clear all the viruses in rows of 4 without filling up your board. Clear two rows of 4 at once and you'll drop some random pieces in your opponent's board. You can set the difficulty independently for both players, too, which was really nice for learning the game. I still lose more than I win, but it's really fun regardless.
 - Excitebike
-- Final Fantasy
-- __Galaga__: This is one of my favorite arcade games. It's nice to have this on a home console.
+- __Final Fantasy__: This one isn't bad as long as you have the manual next to you. There's a pretty decent RPG in here, complete with character specialties, varied weapons and armor, distinct enemies, and some certain sense of getting better at the game even outside the levelling up, i.e. mentally figuring how many party members you need to dedicate to attacking each enemy. The manual walks you through the entire prologue and helps you reach the next couple major milestones. It's cool, though it might be a little too much mental math relative to the amount of "game" there is for me to invest too much more time into it.
+- __Galaga__: This is one of my favorite arcade games. It's nice to have this on a home console, even with the controller's limitations.
 - Ghosts 'n Goblins
 - Gradius
 - Ice Climber
@@ -45,15 +45,15 @@ Below the break I'll record some thoughts I have on each game as I get around to
 - __Mega Man 2__: Possibly the game I was most interested to try based on reputation alone, having never played a Mega Man game. Fighting the robot masters across the first 8 regular levels was really enjoyable. Being able to do levels out of order if you were having trouble was satisfying: you can come back with better weapons or just a better attitude for taking on the challenge. Organically finding the weaknesses of all the robot masters is interesting, too. However, some of the bits in Wily's Castle are unendingly frustrating, requiring you to dodge one-hit environmental kills or grind to restore energy for weapons required to finish the level. I did beat the game, though I used save states to avoid grinding for energy or replaying certain segments in the final few levels.
 - Metroid
 - Ninja Gaiden
-- Pac-Man
+- __Pac-Man__: Where the lack of an arcade-quality joystick doesn't seem to hurt Galaga too much, it utterly ruins Pac-Man for me. My one attempt was full of wrong-way turns. I think I've been spoiled on arcade and PlayStation joysticks for too long to enjoy this.
 - Punch-Out!!
 - StarTropics
 - Super C
-- __Super Mario Bros.__: I didn't remember that you're expected to beat this in one go: there are no save points, though there are warp pipes that jump you through worlds. Not being able to backtrack is something I sorely miss from playing later games in the series. It's still fun, though, and I expect I'll eventually use save states like checkpoints to get through to the final world.
+- __Super Mario Bros.__: I didn't remember that you're expected to beat this in one go: there are no save points, though there are warp pipes that jump you through worlds. Not being able to backtrack while playing is something I sorely miss from playing later games in the series. It's still fun, though, and I expect I'll eventually use save states like checkpoints to get through to the final world.
 - Super Mario Bros. 2
 - Super Mario Bros. 3
 - Tecmo Bowl
-- __The Legend of Zelda__: Tracy's been playing this one with some hints from me to keep her on the right track. There's some really satisfying exploration to be had here, and the game is difficult but feels fair overall: if you die, you always keep all the items you've accumulated, and you start in the starting area (or at the beginning of a dungeon if you're in a dungeon). The PDF manual for this game includes a partially-filled in map with general directions for finding the first 4 dungeons, a nice touch.
+- __The Legend of Zelda__: Tracy's been playing this one with some hints from me to keep her on the right track. There's some really satisfying exploration to be had here, and the game is difficult but feels fair overall: if you die, you always keep all the items you've accumulated, and you start in the starting area (or at the beginning of a dungeon if you're in a dungeon). I wish you respawned with full health, though: there would be a lot less wasted grinding that way. The PDF manual for this game includes a partially-filled in map with general directions for finding the first 4 dungeons, a nice touch.
 - Zelda II
 
 ### SNES
