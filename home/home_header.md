@@ -1,3 +1,3 @@
-__Home__ [Blog](/blog/)
+__[Home](/)__ _[Blog](/blog/)_
 
 ---
