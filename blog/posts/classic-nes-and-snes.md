@@ -25,55 +25,76 @@ Below the break I'll record some thoughts I have on each game as I get around to
 
 ### NES
 
+- __Castlevania__: Yup, this game is difficult. It's well-designed, though, which you'd know if you followed the [works of Arin Hansen](https://www.youtube.com/watch?v=Aip2aIt0ROM). Save states make this game a little more playable, though I still haven't completed it.
+
+- __Donkey Kong__: While this version doesn't eat quarters like the original arcade version, it's not super compelling as either a single-player or 2-player game alongside other games on the NES.
+
+- __Dr. Mario__: One of the best 2-player competitive games I've played. Ever. Seriously! Clear all the viruses in rows of 4 without filling up your board. Clear two rows of 4 at once and you'll drop some random pieces in your opponent's board. You can set the difficulty independently for both players, too, which was really nice for learning the game. I still lose more than I win, but it's really fun regardless.
+
+- __Final Fantasy__: This one isn't bad as long as you have the manual next to you. There's a pretty decent RPG in here, complete with character specialties, varied weapons and armor, distinct enemies, and some certain sense of getting better at the game even outside the levelling up, i.e. mentally figuring how many party members you need to dedicate to attacking each enemy. The manual walks you through the entire prologue and helps you reach the next couple major milestones. It's cool, though it might be a little too much mental math relative to the amount of "game" there is for me to invest too much more time into it.
+
+- __Galaga__: This is one of my favorite arcade games. It's nice to have this on a home console, even with the controller's limitations.
+
+- __Kirby's Adventure__: This game is not overly challenging. This is a really nice change of pace for a NES game. Copying enemies is interesting and satisfying, and there's enough variety in enemies and level design to keep you moving and exploring. There are some really interesting levels in the final world, including some stellar (hah!) boss fights.
+
+- __Mega Man 2__: Possibly the game I was most interested to try based on reputation alone, having never played a Mega Man game. Fighting the robot masters across the first 8 regular levels was really enjoyable. Being able to do levels out of order if you were having trouble was satisfying: you can come back with better weapons or just a better attitude for taking on the challenge. Organically finding the weaknesses of all the robot masters is interesting, too. However, some of the bits in Wily's Castle are unendingly frustrating, requiring you to dodge one-hit environmental kills or grind to restore energy for weapons required to finish the level. I did beat the game, though I used save states to avoid grinding for energy or replaying certain segments in the final few levels.
+
+- __Pac-Man__: Where the lack of an arcade-quality joystick doesn't seem to hurt Galaga too much, it utterly ruins Pac-Man for me. My one attempt was full of wrong-way turns. I think I've been spoiled on arcade and PlayStation joysticks for too long to enjoy this.
+
+- __Super Mario Bros.__: I didn't remember that you're expected to beat this in one go: there are no save points, though there are warp pipes that jump you through worlds. Not being able to backtrack while playing is something I sorely miss from playing later games in the series. It's still fun, though, and I expect I'll eventually use save states like checkpoints to get through to the final world.
+
+- __The Legend of Zelda__: Tracy played through this one with some hints from me to keep her on the right track. There's some really satisfying exploration to be had here, and the game is difficult but feels fair overall: if you die, you always keep all the items you've accumulated, and you start in the starting area (or at the beginning of a dungeon if you're in a dungeon). I wish you respawned with full health, though: there would be a lot less wasted grinding that way. The PDF manual for this game includes a partially-filled in map with general directions for finding the first 4 dungeons, a nice touch.
+
+- __Zelda II__: A strange game, to be sure. The overworld reminds me of Final Fantasy (well, technically it's the other way around), and the platforming/combat reminds me a bit of Castlevania, though not as satisfying in the opening sequences. Also, Link has a limited number of lives in this game? I dunno man.
+
+Still unplayed:
+
 - Balloon Fight
 - Bubble Bobble
-- __Castlevania__: Yup, this game is difficult. It's well-designed, though, which you'd know if you followed the [works of Arin Hansen](https://www.youtube.com/watch?v=Aip2aIt0ROM). Save states make this game a little more playable, though I still haven't completed it.
 - Castlevania II
-- __Donkey Kong__: While this version doesn't eat quarters like the original arcade version, it's not super compelling as either a single-player or 2-player game alongside other games on the NES.
 - Donkey Kong Jr.
 - Double Dragon II
-- __Dr. Mario__: One of the best 2-player competitive games I've played. Ever. Seriously! Clear all the viruses in rows of 4 without filling up your board. Clear two rows of 4 at once and you'll drop some random pieces in your opponent's board. You can set the difficulty independently for both players, too, which was really nice for learning the game. I still lose more than I win, but it's really fun regardless.
 - Excitebike
-- __Final Fantasy__: This one isn't bad as long as you have the manual next to you. There's a pretty decent RPG in here, complete with character specialties, varied weapons and armor, distinct enemies, and some certain sense of getting better at the game even outside the levelling up, i.e. mentally figuring how many party members you need to dedicate to attacking each enemy. The manual walks you through the entire prologue and helps you reach the next couple major milestones. It's cool, though it might be a little too much mental math relative to the amount of "game" there is for me to invest too much more time into it.
-- __Galaga__: This is one of my favorite arcade games. It's nice to have this on a home console, even with the controller's limitations.
 - Ghosts 'n Goblins
 - Gradius
 - Ice Climber
 - Kid Icarus
-- __Kirby's Adventure__: This game is not overly challenging. This is a really nice change of pace for a NES game. Copying enemies is interesting and satisfying, and there's enough variety in enemies and level design to keep you moving and exploring. There are some really interesting levels in the final world, including some stellar (hah!) boss fights.
 - Mario Bros.
-- __Mega Man 2__: Possibly the game I was most interested to try based on reputation alone, having never played a Mega Man game. Fighting the robot masters across the first 8 regular levels was really enjoyable. Being able to do levels out of order if you were having trouble was satisfying: you can come back with better weapons or just a better attitude for taking on the challenge. Organically finding the weaknesses of all the robot masters is interesting, too. However, some of the bits in Wily's Castle are unendingly frustrating, requiring you to dodge one-hit environmental kills or grind to restore energy for weapons required to finish the level. I did beat the game, though I used save states to avoid grinding for energy or replaying certain segments in the final few levels.
 - Metroid
 - Ninja Gaiden
-- __Pac-Man__: Where the lack of an arcade-quality joystick doesn't seem to hurt Galaga too much, it utterly ruins Pac-Man for me. My one attempt was full of wrong-way turns. I think I've been spoiled on arcade and PlayStation joysticks for too long to enjoy this.
 - Punch-Out!!
 - StarTropics
 - Super C
-- __Super Mario Bros.__: I didn't remember that you're expected to beat this in one go: there are no save points, though there are warp pipes that jump you through worlds. Not being able to backtrack while playing is something I sorely miss from playing later games in the series. It's still fun, though, and I expect I'll eventually use save states like checkpoints to get through to the final world.
 - Super Mario Bros. 2
 - Super Mario Bros. 3
 - Tecmo Bowl
-- __The Legend of Zelda__: Tracy played through this one with some hints from me to keep her on the right track. There's some really satisfying exploration to be had here, and the game is difficult but feels fair overall: if you die, you always keep all the items you've accumulated, and you start in the starting area (or at the beginning of a dungeon if you're in a dungeon). I wish you respawned with full health, though: there would be a lot less wasted grinding that way. The PDF manual for this game includes a partially-filled in map with general directions for finding the first 4 dungeons, a nice touch.
-- __Zelda II__: A strange game, to be sure. The overworld reminds me of Final Fantasy (well, technically it's the other way around), and the platforming/combat reminds me a bit of Castlevania, though not as satisfying in the opening sequences. Also, Link has a limited number of lives in this game? I dunno man.
 
 ### SNES
 
+- __Donkey Kong Country__: I actually owned this for Game Boy Color when I was a kid. Seeing it on a big screen is really enjoyable. Not every obstacle in this game feels obvious or even fair, but the levels aren't too long and there's plenty of extra lives to be had in the first parts of the game. The two-player team mode is a fun way to share the game with a partner, something that other platformers could take a lesson from.
+
+- __Kirby's Dream Course__: I think there's a decent game in here, but when we tried playing it blind, it fell flat. We stumbled through learning the controls as well as the game mechanics, which are not exactly the rules of real golf. I imagine we'll revisit it later.
+
+- __Mega Man X__: We only played the intro stage, and really that was just to incessantly quote [Sequelitis](https://www.youtube.com/watch?v=8FpigqfcvlM). Now that I've played all the way through Mega Man 2 I'm interested to try this one out.
+
+- __Star Fox__: I'd previously only played Star Fox 64, and I wasn't very good at it. I'm super impressed with the graphics in this one - the SNES had decent capabilities if you knew how to take advantage of them. This wins a "game that makes me yell at the TV in a good way" award for all its exciting moments.
+
+- __Super Mario RPG__: I wanted to play a game that was a bit slower than all the Dr. Mario and Mega Man 2 I'd been playing, so I started a campaign here. I'm not very far - only up to the first town - but I'm having fun. I recognize some of the timing elements from later Mario RPG games: press the attack button when you're attacking to make it stronger, press a button when you're attacked to have a chance to defend yourself, etc. Some of the story elements are genuinely funny. If the relative monotony of the gameplay doesn't manage to overpower the story, I could see myself playing this for a while.
+
+- __Super Mario World__: There's a lot to like about this game. It's a super tight platformer. Being able to save is really nice. The expectations for your skill can be pretty high even with the save points. We've been alternating levels for the most part. We're only through the first world for now.
+
+Still unplayed:
+
 - Contra III
-- __Donkey Kong Country__: I actually owned this for Game Boy Color when I was a kid. Seeing it on a big screen is really enjoyable. Not every obstacle in this game feels obvious or even fair, but the levels aren't too long and there's plenty of extra lives to be had. The two-player team mode is a fun way to share the game with a partner, something that other platformers could take a lesson from.
 - Earthbound
 - F-Zero
 - Final Fantasy III
 - Kirby Super Star
-- __Kirby's Dream Course__: I think there's a decent game in here, but when we tried playing it blind, it fell flat. We stumbled through learning the controls as well as the game mechanics, which are not exactly the rules of real golf. I imagine we'll revisit it later.
-- __Mega Man X__: We only played the intro stage, and really that was just to incessantly quote [Sequelitis](https://www.youtube.com/watch?v=8FpigqfcvlM). Now that I've played all the way through Mega Man 2 I'm interested to try this one out.
 - Secret of Mana
-- __Star Fox__: I'd previously only played Star Fox 64, and I wasn't very good at it. I'm super impressed with the graphics in this one - the SNES had decent capabilities if you knew how to take advantage of them. This wins a "game that makes me yell at the TV in a good way" award for all its exciting moments.
 - Star Fox 2
 - Street Fighter II
 - Super Castlevania IV
 - Super Ghouls 'n Ghosts
-- __Super Mario RPG__: I wanted to play a game that was a bit slower than all the Dr. Mario and Mega Man 2 I'd been playing, so I started a campaign here. I'm not very far - only up to the first town - but I'm having fun. I recognize some of the timing elements from later Mario RPG games: press the attack button when you're attacking to make it stronger, press a button when you're attacked to have a chance to defend yourself, etc. Some of the story elements are genuinely funny. If the relative monotony of the gameplay doesn't manage to overpower the story, I could see myself playing this for a while.
-- __Super Mario World__: There's a lot to like about this game. It's a super tight platformer. Being able to save is really nice. The expectations for your skill can be pretty high even with the save points. We've been alternating levels for the most part. We're only through the first world for now.
 - Super Mario Kart
 - Super Metroid
 - Super Punch-Out!!
