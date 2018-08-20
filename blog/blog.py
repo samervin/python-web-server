@@ -11,7 +11,7 @@ def get_blog_post_html(post_name):
     post_html = site_utilities.md_with_metadata_to_html(post_md)
     post_title = post_html.metadata.get('title')
     browser_title_html = '<title>{}</title>'.format(post_title)
-    blog_title_html = site_utilities.md_to_html('### {}'.format(post_title))
+    blog_title_html = site_utilities.md_to_html('## {}'.format(post_title))
     footer_md = _get_blog_post_footer_markdown(post_name)
     footer_html = site_utilities.md_to_html(footer_md)
     header = _get_blog_header_html()
