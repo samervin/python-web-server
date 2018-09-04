@@ -87,3 +87,5 @@ All the organized and labeled things went into the _Dead of Winter_ box, leaving
 Well, I'm not sure. Play the game, I guess.
 
 All the organization I did makes me optimistic about actually getting it to the table before the end of the year. We'll see!
+
+__Update:__ Finally got this to the table in September. The variety was nice, in particular at locations like the Police Station and the Library. The bags worked really well for set up as well as tear down. We also assigned the player to the left of the current player to be the token master, which kept people focused and proved to be the best way to handle food, noise, and wound tokens. I suspect we'll get to play it again before the year is out.
