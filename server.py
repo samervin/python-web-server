@@ -3,6 +3,7 @@ import meta
 from meta import site_utilities
 from home import home
 from blog import blog
+from resume import resume
 
 server = flask.Flask(__name__)
 # Note on routes:
@@ -29,6 +30,13 @@ def route_blog_post(post_name):
     blog_post = blog.get_blog_post_html(post_name)
     blog_post_page = _create_html_page(blog_post)
     return blog_post_page
+
+
+@server.route('/resume')
+def route_resume():
+    resume_html = resume.get_resume_html()
+    resume_page = _create_html_page(resume_html)
+    return resume_page
 
 
 @server.route('/favicon.ico')
