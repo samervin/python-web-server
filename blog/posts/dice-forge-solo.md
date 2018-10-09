@@ -11,19 +11,129 @@ Well, the first place I went was the BoardGameGeek forums. There's a section ded
 
 Playing without any semblance of interaction didn't feel right, though. I also wasn't satisfied with the existing AI rulesets. They were too complicated or required resources outside the game, like a deck of cards with decisions on them. I wanted the rules to be able to fit on an index card.
 
-So I sat down and made up this ruleset. Skim through it to see what it does, and check out the result of my first game against it below.
+So I sat down and made up this ruleset. Read the short version to see what it does, then check out the result of my first game against it. I go into more details and explain my thoughts at the bottom.
 
 ---
 
-### Terminology
+## Short AI rules
 
-_"sun"_ means Sun Shards.
-_"moon"_ means Moon Shards.
-_"points"_ means Glory.
+The first written version of these rules was a little on the long side. It also didn't put everything in order of importance. So I wrote this quick version to make it more digestible for someone not in my own head. Enjoy.
 
-These are three of the four base currencies (the other is gold). It's easier to keep their descriptions short to get to the point on the descriptions below. Honestly, I usually call Sun Shards "fire" when I'm playing in person. The icon on the player board looks like fire to me.
+### Set up
 
-Also, I shorten Blacksmith's Hammer to _"Hammer"_, Blacksmith's Chest to _"Chest"_, Helmet of Invisibility to _"Helmet"_, and Mirror of the Abyss to _"Mirror"_. These are the longest card names and the most relevant to shorten, as they're included in every game of Dice Forge.
+Set up the game using the two-player rules. You take the first turn. Use the following stacks of cards:
+
+- [1 moon] Blacksmith's Hammer and Chest
+- [2 moon] Silver Hind
+- [3 moon] Tenacious Boar
+- [4 moon] Ferryman
+- [5 moon] Helmet of Invisibility
+- [6 moon] Cancer
+- [1 sun] Elder and Wild Spirits
+- [2 sun] Guardian's Owl
+- [3 sun] Guardian's Shield
+- [4 sun] Gorgon
+- [5 sun] Mirror of the Abyss
+- [6 sun] Sphinx
+- [5 moon + 5 sun] Hydra
+
+### Round-by-round rules
+
+On the AI's turn, if it is...
+
+__Round 1, 2, or 3:__
+
+Prioritize sun > moon > gold > points.
+
+If the AI has 8 or more gold, forge the most expensive die face(s) it can afford. Follow its resource priority.
+
+Otherwise, buy the first card from the following list that it can afford:
+
+- Tenacious Boar
+- Silver Hind
+- Guardian's Shield
+- Guardian's Owl
+- Wild Spirits
+- Blacksmith's Chest* (unless it already has one)
+
+__Round 4, 5, or 6:__
+
+Prioritize sun > moon > points > gold.
+
+Buy the first card from the following list that it can afford:
+
+- Hydra
+- Cancer
+- Sphinx
+- Helmet of Invisibility
+- Mirror of the Abyss
+
+Otherwise, with 8 or more gold, forge the most expensive die face(s) it can afford. Follow its resource priority.
+
+Otherwise, buy the first card from the following list that it can afford:
+
+- Guardian's Shield
+- Elder* (unless it already has a Hammer)
+- Blacksmith's Hammer* (unless it already has an incomplete Hammer or an Elder)
+
+Otherwise, fall back to Round 1 rules.
+
+__Round 7, 8, or 9:__
+
+Prioritize points > sun > moon > gold.
+
+Buy the first card from the following list that it can afford:
+
+- Hydra
+- Cancer
+- Sphinx
+- Gorgon
+- Ferryman
+
+Otherwise, with 8 or more gold, forge the most expensive die face(s) it can afford that grants points.
+
+Otherwise, buy the first card from the following list that it can afford:
+
+- Elder* (unless it already has a Hammer)
+- Blacksmith's Hammer* (unless it already has an incomplete Hammer or an Elder)
+
+Otherwise, fall back to Round 1 rules.
+
+### Other general rules
+
+When forging a die face, randomly determine which 1-gold face to replace. If there are none left, choose the smallest remaining gold die face.
+
+When rolling a minor blessing, choose a die at random. Optionally, it may choose the "best" die, avoiding Boar or x3 faces.
+
+If the AI has a Hammer or an Elder, always use it if possible.
+
+If the AI has 2 sun left over after choosing an action, it always spends it to take another action if possible.
+
+If the AI needs to make a choice (for example, choosing a resource from a Boar roll), it chooses in resource priority order. Optionally, it may avoid options that are not efficient, e.g. not taking 3 gold if it already has 12.
+
+---
+
+## Result of the first attempt
+
+So how did it go?
+
+Well, pretty well! The AI ended up forging only 5 die faces: two 1-sun faces, a 2-sun face, a x3 face, and the combination gold + point + sun + moon face. It managed to buy two Hydras and two Sphinxes with the help of the x3 face, and even kept an Elder running.
+
+I went for a more esoteric strategy. I forged 6 different die faces with some kind of points on them and generally bought cheaper cards. I ended up with a little too much gold towards the end of the game and only two Cancers, but I still went into the last round with a huge number of points.
+
+I expected to trounce the AI. It wasted several rolls by overstocking itself with sun die faces. It wasn't efficient in moving around the board and didn't care if it ousted me.
+
+I didn't trounce the AI. I lost.
+
+It was close. The AI's 140 to my 136. Still. I lost to a dumb robot.
+
+I guess I know what strategy I'm using the next time I play.
+
+---
+
+## Full AI rules
+
+Here's the full explanation of all the unwritten rules I ignored or didn't fully explain above. They'd be useful if you were programming a Dice Forge AI to play how I wanted it to play, but they're not always ideal for learning. I also go into details on some of the decisions I made.
 
 ### Cards chosen
 
@@ -176,30 +286,6 @@ Otherwise, buy the first card from the following list that it can afford:
 - Blacksmith's Hammer* (unless it already has an incomplete Hammer or an Elder)
 
 Otherwise, fall back to Round 1-3 rules.
-
----
-
-### Result of the first attempt
-
-The rules above are an extrapolation of the piece of notebook paper I took notes on. I didn't change any of the  _resource priorities_ or card buying orders.
-
-I extrapolated some of the rules from my original intent for the AI, which was "take the best thing". Most of the edge cases didn't come up in my first play, but they're here for completeness.
-
-So how did it go?
-
-Well, pretty well! The AI ended up forging only 5 die faces: two 1-sun faces, a 2-sun face, a x3 face, and the combination gold + point + sun + moon face. It managed to buy two Hydras and two Sphinxes with the help of the x3 face, and even kept an Elder running.
-
-I went for a more esoteric strategy. I forged 6 different die faces with some kind of points on them and generally bought cheaper cards. I ended up with a little too much gold towards the end of the game and only two Cancers, but I still went into the last round with a huge number of points.
-
-I expected to trounce the AI. It wasted several rolls by overstocking itself with sun die faces. It wasn't efficient in moving around the board and didn't care if it ousted me.
-
-I didn't trounce the AI. I lost.
-
-It was close. The AI's 140 to my 136. Still. I lost to a dumb robot.
-
-I guess I know what strategy I'm using the next time I play.
-
----
 
 ### Addendum: Potential changes
 
