@@ -30,5 +30,13 @@ def get_site_html_footer():
 def get_site_css_header():
     with open('meta/site.css') as css_file:
         css_content = css_file.read()
+    css_content = _minify_css(css_content)
     css_header = '<head><style>{}</style></head>'.format(css_content)
     return css_header
+
+def _minify_css(css_content: str):
+    """ Minify a CSS string naively, only removing whitespace characters. """
+    removal_chars = [' ', '\n', '\t']
+    for item in removal_chars:
+        css_content = css_content.replace(item, '')
+    return css_content
