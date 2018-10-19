@@ -6,6 +6,9 @@ from blog import blog
 from resume import resume
 
 server = flask.Flask(__name__)
+# Signal that static files like favicon.ico can be cached for 1 week
+server.config['SEND_FILE_MAX_AGE_DEFAULT'] = 604800
+
 # Note on routes:
 # use /path/ for folders, places in the hierarchy with children
 # use /path for files or other terminating hierarchies
