@@ -176,7 +176,7 @@ Oh, and the end-row card.
 
 These are a bit more descriptive than I originally wrote. I codified some of the assumed interactions I encountered when I was playing. The gist of the rules is that the AI doesn't do anything wasteful if it can help it, whether that's buying cards it doesn't need or taking resources it can't hold. If you play using these rules, feel free to shorten or improv the edge cases.
 
-Examples of _resource priority_ or _priority order_ appear below in the Round-by-round rules. It's an ordering of sun, moon, gold, and points that's specific to the round.
+Examples of _resource priority_ or _priority order_ appear above in the Round-by-round rules. It's an ordering of sun, moon, gold, and points that's specific to the round.
 
 Unless otherwise listed, play as a normal 2-player game. The AI should go second, so it can use all the resources it accumulates. You can make all decisions on your turn independently of the AI. For the record, I don't remove die faces or cards from the board during setup, even when playing with 2 people. I think this actually benefits the AI, as it can pursue big cards more easily.
 
