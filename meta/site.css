@@ -2,9 +2,13 @@ p, ul, ol, li {
     line-height: 1.3
 }
 
-div.widen p {
+div.flex-between {
     display: flex;
-    justify-content: space-around
+    justify-content: space-between
+}
+
+div.flex-between > div {
+    margin: 1em
 }
 
 a:link, a:visited {

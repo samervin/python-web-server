@@ -12,8 +12,7 @@ def get_blog_post_html(post_name):
     post_title = post_html.metadata.get('title')
     browser_title_html = '<title>{}</title>'.format(post_title)
     blog_title_html = site_utilities.md_to_html('## {}'.format(post_title))
-    footer_md = _get_blog_post_footer_markdown(post_name)
-    footer_html = site_utilities.md_to_html(footer_md)
+    footer_html = _get_blog_post_footer_html(post_name)
     header = _get_blog_header_html()
     return header + browser_title_html + blog_title_html + post_html + footer_html
 
@@ -52,9 +51,9 @@ def _get_blog_posts_list():
     return post_list
 
 
-def _get_blog_post_footer_markdown(post_name):
-    with open('blog/blog_post_footer.md') as footer_file:
-        footer_md = footer_file.read()
+def _get_blog_post_footer_html(post_name):
+    with open('blog/blog_post_footer.html') as footer_file:
+        footer_html = footer_file.read()
     post_list = _get_blog_posts_list()
 
     for index, post in enumerate(post_list):
@@ -65,10 +64,10 @@ def _get_blog_post_footer_markdown(post_name):
     next_post_link = '→'
     if index > 0:
         previous_post = post_list[index - 1]
-        previous_post_link = '[← {}]({})'.format(previous_post.title, previous_post.url_slug)
+        previous_post_link = '<a href="{}">← {}</a>'.format(previous_post.url_slug, previous_post.title)
     if index < len(post_list) - 1:
         next_post = post_list[index + 1]
-        next_post_link = '[{} →]({})'.format(next_post.title, next_post.url_slug)
-    footer_md = footer_md.replace('{previous-post-link}', previous_post_link)
-    footer_md = footer_md.replace('{next-post-link}', next_post_link)
-    return footer_md
+        next_post_link = '<a href="{}">{} →</a>'.format(next_post.url_slug, next_post.title)
+    footer_html = footer_html.replace('{previous-post-link}', previous_post_link)
+    footer_html = footer_html.replace('{next-post-link}', next_post_link)
+    return footer_html
