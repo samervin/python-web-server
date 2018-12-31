@@ -6,7 +6,8 @@ def get_resume_html():
         resume = resume.read()
     resume_html = site_utilities.md_to_html(resume)
     header_html = _get_resume_header_html()
-    return header_html + resume_html
+    browser_title_html = '<title>resume | samerv.in</title>'
+    return header_html + browser_title_html + resume_html
 
 
 def _get_resume_header_html():

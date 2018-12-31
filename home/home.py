@@ -6,7 +6,8 @@ def get_home_html():
         home = home.read()
     home_html = site_utilities.md_to_html(home)
     header_html = _get_home_header_html()
-    return header_html + home_html
+    browser_title_html = '<title>samerv.in</title>'
+    return header_html + browser_title_html + home_html
 
 
 def _get_home_header_html():
