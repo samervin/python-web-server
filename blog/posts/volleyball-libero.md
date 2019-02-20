@@ -9,6 +9,8 @@ I looked for more information on liberos to understand the substitution behavior
 
 This post discusses the libero rules for the college game specifically. There's also a specific example of how substitutions (technically _replacements_) work.
 
+---
+
 ## Libero-specific rules
 
 ### Positional rules
@@ -34,6 +36,8 @@ These rules reinforce the concept of the libero. She is a defensive specialist, 
 These rules enables the libero to be extremely flexible. She can enter and leave the game essentially infinitely and she can always replace a player in order to serve.
 
 That's really it! There are some additional rules governing extenuating circumstances, such as substituting for an injured player, but nothing common. Oh, and the libero has to wear a different color uniform to her teammates.
+
+---
 
 ## Substitution example
 
@@ -100,6 +104,8 @@ Rotation 7* | | |
 Foecke                | ~~Stivrins~~ __Maloney__ | Hames
 
 This is identical to the 1st rotation, though because it is not the start of the match, Sweet must use a substitution to enter the game in Miller's place. Maloney replaces Stivrins in the back row as she did at the start of the match.
+
+---
 
 ## References
 
