@@ -87,8 +87,8 @@ Another simple rotation.
 
 Rotation 6 | | |
 :--|---|---
-~~Maloney~~ Schwarzenbach | Sun    | Hames
-Miller                    | Foecke | Stivrins
+~~Maloney~~ __Schwarzenbach__ | Sun    | Hames
+Miller                        | Foecke | Stivrins
 
 Schwarzenbach replaces Maloney, as she must: again, Maloney can not rotate into the front row, and only Schwarzenbach can replace her. Maloney cannot immediately replace Stivrins, because she has already served in rotation 3 and cannot serve in multiple rotations. This is the only rotation without a libero on the court.
 
@@ -96,8 +96,8 @@ In this particular game, Stivrins served in the sixth rotation. In some games, a
 
 Rotation 7* | | |
 :--|---|---
-~~Miller~~ Sweet  | Schwarzenbach            | Sun
-Foecke            | ~~Stivrins~~ __Maloney__ | Hames
+~~Miller~~ __Sweet__  | Schwarzenbach            | Sun
+Foecke                | ~~Stivrins~~ __Maloney__ | Hames
 
 This is identical to the 1st rotation, though because it is not the start of the match, Sweet must use a substitution to enter the game in Miller's place. Maloney replaces Stivrins in the back row as she did at the start of the match.
 
