@@ -25,3 +25,16 @@ a:active {
     text-decoration: none;
     color: orange;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 1px solid black;
+    background-color: lightgray;
+}
+
+td {
+    border: 1px solid black;
+}
