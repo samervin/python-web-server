@@ -1,10 +1,22 @@
+import csscompressor
 import markdown2
 
-# Markdown in HTML extension allows mixing of HTML and Markdown using markdown="1"
-# Metadata extension allows for metadata definitions in Markdown files,
+# Extensions:
+#
+# 'metadata' allows for metadata definitions in Markdown files,
 # however it can cause issues with parsing certain kinds of content and so is used only when necessary
-md = markdown2.Markdown(extras=['markdown-in-html'])
-md_with_metadata = markdown2.Markdown(extras=['metadata', 'markdown-in-html'])
+#
+# 'markdown-in-html' allows mixing of HTML and Markdown using markdown="1"
+#
+# 'tables' allows tables to be defined as in this example:
+# header 1     | header 2 | header 3
+# :----------- | :------: | -------:
+# left-aligned | centered | right-aligned
+#
+# 'strike' allows strikethrough text like so: ~~strikethrough~~
+
+md = markdown2.Markdown(extras=['markdown-in-html', 'tables', 'strike'])
+md_with_metadata = markdown2.Markdown(extras=['metadata', 'markdown-in-html', 'tables', 'strike'])
 
 
 def md_to_html(md_content: str, md_extras=None):
@@ -30,13 +42,6 @@ def get_site_html_footer():
 def get_site_css_header():
     with open('meta/site.css') as css_file:
         css_content = css_file.read()
-    css_content = _minify_css(css_content)
+    css_content = csscompressor.compress(css_content)
     css_header = '<head><style>{}</style></head>'.format(css_content)
     return css_header
-
-def _minify_css(css_content: str):
-    """ Minify a CSS string naively, only removing whitespace characters. """
-    removal_chars = [' ', '\n', '\t']
-    for item in removal_chars:
-        css_content = css_content.replace(item, '')
-    return css_content
