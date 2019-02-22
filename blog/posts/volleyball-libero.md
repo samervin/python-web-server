@@ -33,9 +33,9 @@ These rules reinforce the concept of the libero. She is a defensive specialist, 
 
 - There must be at least one completed rally between each libero replacement __except__ when the libero replaces the player in position 1 (the serving position) and is the next correct server. This effectively allows a double-replacement where the libero is replaced instead of rotating into the front row, but then immediately replaces the player moving into the back row to serve.
 
-These rules enables the libero to be extremely flexible. She can enter and leave the game essentially infinitely and she can always replace a player in order to serve.
+These rules enable the libero to be extremely flexible. She can enter and leave the game essentially infinitely and she can always replace a player in order to serve.
 
-That's really it! There are some additional rules governing extenuating circumstances, such as substituting for an injured player, but nothing common. Oh, and the libero has to wear a different color uniform to her teammates.
+That's really it! There are some additional rules governing extenuating circumstances, such as substituting for an injured player, but nothing common. Finally, the libero has to wear a different color uniform to her teammates.
 
 ---
 
