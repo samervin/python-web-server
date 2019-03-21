@@ -1,5 +1,5 @@
 csscompressor>=0.9.5
-flask>=0.12.2
-gunicorn>=19.7.1
-markdown2>=2.3.5
-yapf>=0.20.0
+flask>=1.0.2
+gunicorn>=19.9.0
+markdown2>=2.3.7
+yapf>=0.26.0
