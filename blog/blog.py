@@ -1,3 +1,4 @@
+from datetime import datetime as dt
 import os
 from meta import site_utilities
 from collections import namedtuple
@@ -10,11 +11,13 @@ def get_blog_post_html(post_name):
         post_md = post_file.read()
     post_html = site_utilities.md_with_metadata_to_html(post_md)
     post_title = post_html.metadata.get('title')
+    raw_datetime = dt.strptime(post_html.metadata.get('datetime'), '%Y-%m-%d %H:%M')
     browser_title_html = '<title>{} | samerv.in</title>'.format(post_title)
     blog_title_html = site_utilities.md_to_html('## {}'.format(post_title))
+    blog_date = raw_datetime.strftime('<i>%b %d %Y</i>')
     footer_html = _get_blog_post_footer_html(post_name)
     header = _get_blog_header_html()
-    return header + browser_title_html + blog_title_html + post_html + footer_html
+    return header + browser_title_html + blog_title_html + blog_date + post_html + footer_html
 
 
 def _get_blog_header_html():
@@ -30,7 +33,9 @@ def get_blog_home_html():
     post_list.reverse()
     post_list_str = ''
     for post in post_list:
-        post_list_str += '\n- [{}]({})'.format(post.title, post.url_slug)
+        raw_datetime = dt.strptime(post.datetime, '%Y-%m-%d %H:%M')
+        pretty_datetime = raw_datetime.strftime('<i>%b %d %Y</i>')
+        post_list_str += '\n- [{}]({}) ({})'.format(post.title, post.url_slug, pretty_datetime)
     header = _get_blog_header_html()
     browser_title_html = '<title>blog | samerv.in</title>'
     content = site_utilities.md_to_html(blog_opener + post_list_str)
