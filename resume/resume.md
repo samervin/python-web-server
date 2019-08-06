@@ -1,6 +1,6 @@
-## Engineer at [Hudl](https://www.hudl.com/) since May 2016
+## Engineer at [Hudl](https://www.hudl.com/) May 2016 to July 2019
 
-As a quality engineer, I write and maintain an internal framework used for automatic regression testing.
+As a quality engineer, I wrote and maintained an internal framework used for automatic regression testing.
 
 - Supports API, UI, and native platform testing.
 - Tests written as Gherkin scenarios using [Behave](https://github.com/behave/behave).
@@ -8,14 +8,15 @@ As a quality engineer, I write and maintain an internal framework used for autom
     - Internal [Selenium Grid](https://github.com/SeleniumHQ/selenium/wiki/Grid2) running in [AWS](https://aws.amazon.com/) that handles all automation web browser requests.
 - Written in Python, named Antioch (after the [library](https://en.wikipedia.org/wiki/Library_of_Antioch), not the Monty Python bit).
 
-As a production operations specialist, I improve our tooling and processes around production operations.
+As a production operations specialist, I improved our tooling and processes around production operations.
 
+- Finished project to restructure production responsibilities: instead of belonging to everyone all at once, separate operations by team or business unit and set expectations accordingly.
 - Coordinate efforts to resolve previous and upcoming production issues on time, called the Production Operations Briefing.
 - Maintain a consistent body of alerting rules in [SignalFx](https://signalfx.com/), [CloudManager](https://www.mongodb.com/cloud/cloud-manager), and [SumoLogic](https://www.sumologic.com/).
 - Maintain schedules for on-call product team members using [PagerDuty](https://www.pagerduty.com/).
 - Handle other requests from engineers for improving our on-call experience, including post mortems, prioritization, alert fatigue, and more.
 
-I also like playing with our other backend systems whenever I can, including the following:
+I also liked playing with our other backend systems whenever I could, including the following:
 
 - Ongoing support for Alyx, an internal deployment tool written in [Go](https://golang.org/).
 - Scheduling an infrastructure engineer on-call rotation to serve the entire product team's ad hoc requests (as well as serving on the rotation).
@@ -27,7 +28,7 @@ Some other notes:
 
 - I'm confident in my ability to know or figure out most things related to Python, Slack, Git, GitHub, Bash, Selenium, TeamCity, PagerDuty, SSH, SignalFx, SumoLogic, and AWS systems including EC2, ASGs, and Lambda.
     - I like MongoDB, NGINX, Docker, and other AWS systems too.
-- I wrote most of the 100+ pages of documentation for our regression testing framework for running, writing, and debugging tests.
+- I wrote most of the 100+ pages of documentation for the regression testing framework for running, writing, and debugging tests.
 - Markerboarding is important to me for capturing how concepts relate to each other. I am a fan of labeled boxes with arrows.
 - I value precise communication. I'm best at expressing this in writing.
     - I like reviewing code. I take consistency and clarity seriously.
@@ -37,9 +38,9 @@ Some other notes:
 
 I graduated from the University of Nebraska-Lincoln with a bachelor's degree in computer science in May 2016, with minors in math and physics.
 
-- My favorite class was a hands-on cryptography class with some really creative assignments. We were once given an enormous database of hashed passwords and told to use any available method to decrypt them. My final presentation was a working demonstration of an insecurity in Bluetooth LE, based on [research by Mike Ryan](https://www.usenix.org/conference/woot13/workshop-program/presentation/ryan).
+- My favorite class was cryptography, which had some really creative assignments. We were once given an enormous database of hashed passwords and told to use any available method to decrypt them. My final presentation was a working demonstration of an insecurity in Bluetooth LE, based on [research by Mike Ryan](https://www.usenix.org/conference/woot13/workshop-program/presentation/ryan).
 - I was an officer of the UNL Soap Carving Club for two years. Yep, that's exactly what you think it is: carving bars of soap with pocketknives, toothpicks, spoons, or your fingernails. It's relaxing.
 
 I program a bit in my spare time. Have you seen the source code for [this very website](https://github.com/samervin/python-web-server)? I'm also technically a [contributor to VS Code](https://github.com/Microsoft/vscode/pull/41763).
 
-I'm also a big fan of computer games (lately Downwell and Yoku's Island Express), board games (lately Santorini and Roll Player), and sports (Nebraska volleyball and football).
+I'm also a big fan of computer games (lately Wargroove and Baba Is You), board games (lately Everdell and Potion Explosion), and sports (Nebraska volleyball and football).
