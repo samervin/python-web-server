@@ -65,6 +65,36 @@ def error_500(e):
     return _create_html_page(html_500), 500
 
 
+# Block of error server routes for testing
+@server.route('/200')
+def route_200():
+    return _create_html_page('200 OK'), 200
+
+@server.route('/400')
+def route_400():
+    return _create_html_page('400 Bad Request'), 400
+
+@server.route('/404')
+def route_404():
+    return _create_html_page('404 Not Found'), 404
+
+@server.route('/418')
+def route_418():
+    return _create_html_page("418 I'm a teapot"), 418
+
+@server.route('/420')
+def route_420():
+    return _create_html_page('420 Enhance Your Calm'), 420
+
+@server.route('/500')
+def route_500():
+    return _create_html_page('500 Internal Server Error'), 500
+
+@server.route('/503')
+def route_503():
+    return _create_html_page('503 Service Unavailable'), 503
+
+
 def _create_html_page(*contents):
     css_header = site_utilities.get_site_css_header()
     site_header = site_utilities.get_site_html_header()
