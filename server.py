@@ -30,9 +30,12 @@ def route_blog():
 
 @server.route('/blog/<post_name>')
 def route_blog_post(post_name):
-    blog_post = blog.get_blog_post_html(post_name)
-    blog_post_page = _create_html_page(blog_post)
-    return blog_post_page
+    try:
+        blog_post = blog.get_blog_post_html(post_name)
+        blog_post_page = _create_html_page(blog_post)
+        return blog_post_page
+    except FileNotFoundError as e:
+        return error_404(e)
 
 
 @server.route('/resume')
@@ -45,6 +48,21 @@ def route_resume():
 @server.route('/favicon.ico')
 def route_favicon():
     return flask.send_from_directory(meta.__name__, 'favicon.ico')
+
+
+@server.errorhandler(404)
+def error_404(e):
+    with open('meta/404.md') as file_404:
+        md_404 = file_404.read()
+    html_404 = site_utilities.md_to_html(md_404)
+    return _create_html_page(html_404), 404
+
+@server.errorhandler(500)
+def error_500(e):
+    with open('meta/500.md') as file_500:
+        md_500 = file_500.read()
+    html_500 = site_utilities.md_to_html(md_500)
+    return _create_html_page(html_500), 500
 
 
 def _create_html_page(*contents):
