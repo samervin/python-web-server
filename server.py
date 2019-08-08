@@ -57,6 +57,7 @@ def error_404(e):
     html_404 = site_utilities.md_to_html(md_404)
     return _create_html_page(html_404), 404
 
+
 @server.errorhandler(500)
 def error_500(e):
     with open('meta/500.md') as file_500:
@@ -70,25 +71,31 @@ def error_500(e):
 def route_200():
     return _create_html_page('200 OK'), 200
 
+
 @server.route('/400')
 def route_400():
     return _create_html_page('400 Bad Request'), 400
+
 
 @server.route('/404')
 def route_404():
     return _create_html_page('404 Not Found'), 404
 
+
 @server.route('/418')
 def route_418():
     return _create_html_page("418 I'm a teapot"), 418
+
 
 @server.route('/420')
 def route_420():
     return _create_html_page('420 Enhance Your Calm'), 420
 
+
 @server.route('/500')
 def route_500():
     return _create_html_page('500 Internal Server Error'), 500
+
 
 @server.route('/503')
 def route_503():
