@@ -13,6 +13,8 @@ This post discusses the libero rules for the college game specifically. There's 
 
 ## Libero-specific rules
 
+The libero wears a different color uniform than that of her teammates. This is often white, if the team is wearing a colored jersey, or vice versa.
+
 ### Positional rules
 
 - The libero can never occupy a front-row position in the serving rotation. If you're not familiar with the serving rotation, [this WikiHow page](https://www.wikihow.com/Rotate-in-Volleyball) summarizes it nicely with some videos.
@@ -34,8 +36,6 @@ These rules reinforce the concept of the libero. She is a defensive specialist, 
 - There must be at least one completed rally between each libero replacement __except__ when the libero replaces the player in position 1 (the serving position) and is the next correct server. This effectively allows a double-replacement where the libero is replaced instead of rotating into the front row, but then immediately replaces the player moving into the back row to serve.
 
 These rules enable the libero to be extremely flexible. She can enter and leave the game essentially infinitely and she can always replace a player in order to serve.
-
-That's really it! There are some additional rules governing extenuating circumstances, such as substituting for an injured player, but nothing common. Finally, the libero has to wear a different color uniform to her teammates.
 
 ---
 
@@ -98,7 +98,7 @@ Schwarzenbach replaces Maloney, as she must: again, Maloney can not rotate into 
 
 In this particular game, Stivrins served in the sixth rotation. In some games, a serving specialist like Hayley Densberger will substitute for Stivrins in this rotation.
 
-Rotation 7* | | |
+Rotation 1* | | |
 :--|---|---
 ~~Miller~~ __Sweet__  | Schwarzenbach            | Sun
 Foecke                | ~~Stivrins~~ __Maloney__ | Hames

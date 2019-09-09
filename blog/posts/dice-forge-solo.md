@@ -17,7 +17,7 @@ So I sat down and made up this ruleset. Read the short version to see what it do
 
 ## Short AI rules
 
-The first written version of these rules was a little on the long side. It also didn't put everything in order of importance. So I wrote this quick version to make it more digestible for someone not in my own head. Enjoy.
+> _Update: The first written version of these rules was a little on the long side. It also didn't put everything in order of importance. So I wrote this quick version to make it more digestible for someone not in my own head. Enjoy._
 
 ### Set up
 
@@ -158,7 +158,7 @@ And here's the sun-cost cards.
 - [1 sun] Elder (Start of turn: -3 gold for 4 points)
 - [1 sun] Wild Spirits (3 gold + 3 moon)
 - [2 sun] Guardian's Owl (1 gold, 1 sun, or 1 moon) instead of Celestial Ship (Temple dice face)
-    - This die face would probably work fine with the AI, since there are already rules for buying die faces. I picked the option that required less fiddling with die faces.
+    - This die face would probably work fine with the AI, since there are already rules for buying die faces. I picked the option that required less fiddling.
 - [3 sun] Guardian's Shield (Conditional die faces) instead of Minotaur (Everyone else rolls, lose rolled resources)
     - Rather than risk the AI buying the Minotaur at the wrong time, it just forges a die face.
 - [4 sun] Gorgon (just points) instead of Triton (6 gold, 2 sun, or 2 moon)

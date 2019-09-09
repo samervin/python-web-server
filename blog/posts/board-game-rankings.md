@@ -15,7 +15,7 @@ The website [BoardGameGeek](https://boardgamegeek.com/) uses a 10-point scale fo
 
 There are three reasons for this:
 
-- If you have a scale with a value in exactly the middle, you will tend to rank things in the middle. It's more informative to pick a side: did you like it or dislike it more?
+- If you have a scale with a value in exactly the middle, you will tend to rank things in the middle. I don't like this. It's more informative to pick a side: did you like it or dislike it more?
 - If you use a 10-point scale, you will tend to rank things around a 7. Despite 7 being on the high end of a 10-point scale, it's "average" when it comes to grades in school, so you start there. BoardGameGeek has this problem.
 - If your scale has too many ranks on it, there will not be enough differences between ranks. You will waste more time comparing games' ranks to each other than ranking them in isolation.
 
@@ -25,13 +25,13 @@ So I chose a 4-point scale. You must choose whether you generally liked a board 
 
 ### What the ranks mean
 
-__4__:I will always play this game. I'll often ask to play this game. It's one of my favorites.
+__4:__ I will always play this game. I'll often ask to play this game. It's one of my favorites.
 
-__3__: I will usually play this game. I'll always play this game if asked. I like it.
+__3:__ I will usually play this game. I'll always play this game if asked. I like it.
 
-__2__: I will sometimes play this game, usually only if asked. I don't like it that much.
+__2:__ I will sometimes play this game, usually only if asked. I don't like it that much.
 
-__1__: I have to be convinced to play this game. One of my least favorites.
+__1:__ I have to be convinced to play this game. One of my least favorites.
 
 Note that these descriptive phrases apply specifically to board games. Your mileage may vary if you're trying to apply this scale to other things.
 
@@ -43,7 +43,7 @@ There are two primary ways to extend the 4-point ranking system.
 
 One of these is the question mark after a ranking: so, __4?__ and __3?__ and __2?__ and __1?__. These denote uncertainty. I use this mostly for board games I've only played once: I had a great time, but did I just get lucky? Will the novelty wear off? Alternatively: did I just get unlucky? Would I know what I was doing during the second playthrough?
 
-The other is more silly, but I mention it anyway. Many people have an absolute favorite board game, or an absolute least favorite. For those games, the scale extends slightly. Your most favorite game of all time may, if you choose, receive a rating of __5__. Similarly, your least favorite game may receive a __0__. I don't have a 5 or a 0 myself (though I know the top ten-ish games in contention for both). Some people really like the extremes though.
+The other is silly, but I'll mention it anyway. Many people have an absolute favorite board game, or an absolute least favorite. For those games, the scale extends slightly. Your most favorite game of all time may, if you choose, receive a rating of __5__. Similarly, your least favorite game may receive a __0__. I don't have a 5 or a 0 myself (though I know the top ten-ish games in contention for both). Some people really like the extremes though.
 
 ### The ranking system in action
 
@@ -65,7 +65,7 @@ If you are trying to _order_ all your games, this ranking system will not help y
 
 As mentioned above, you're not directly scoring whether you think a game is "good", you're only deciding how much you like it. These are very personal rankings. There are many things which may enter into a decision to critically recommend a game: the quality of its design, the style of game, the price, and other information. You get to decide which of those criteria you care about for your score, and you may change those criteria arbitrarily.
 
-> As a specific example: I have given 4s to games with very low randomness and very high strategy, like [Santorini](https://boardgamegeek.com/boardgame/194655/santorini) and [Patchwork](https://boardgamegeek.com/boardgame/163412/patchwork). I've also given 4s to games with tons of randomness and guesswork, like [Skull](https://boardgamegeek.com/boardgame/92415/skull) and [Camel Up](https://boardgamegeek.com/boardgame/153938/camel). The point is not whether I think these games are well-designed or even _fair_. (Looking at you, Camel Up.) The point is that I have a great time playing these games every darn time.
+> As a specific example: I have given 4s to games with very low randomness and very high strategy, like [Santorini](https://boardgamegeek.com/boardgame/194655/santorini) and [Patchwork](https://boardgamegeek.com/boardgame/163412/patchwork). I've also given 4s to games with tons of randomness and guesswork, like [Skull](https://boardgamegeek.com/boardgame/92415/skull) and [Camel Up](https://boardgamegeek.com/boardgame/153938/camel). The point is not whether I think these games are well-designed or even _fair_. (Looking at you, Camel Up.) The point is that I have fun playing these games every darn time.
 
 The ranks and explanations depend a little bit on you wanting to play the same board game multiple times. This applies to most board games for me, but perhaps not for you. Novelty can be a huge part of a board game experience. If you are primarily interested in exploring new worlds with new mechanics and twists, the "play-it-again" ranks may not work for you.
 
