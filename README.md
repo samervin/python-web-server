@@ -9,13 +9,8 @@ To start the server locally ([ref](http://flask.pocoo.org/docs/0.12/quickstart/)
 - `venv\Scripts\activate` on Windows
     - `source venv/bin/activate` on Unix
 - `pip install -r requirements.txt`
-- `set FLASK_APP=server.py` on Windows
-    - `export FLASK_APP=server.py` on Unix
-- `set FLASK_DEBUG=1` on Windows to enable live reloading and verbose debugging
-    - `export FLASK_DEBUG=1` on Unix
-- (Alternatively, you can run `reference/windows-environment.cmd` in Windows environments, to set env vars for you.)
 - `flask run`
-- Open either `localhost:5000` or `127.0.0.1:5000` to browse and generate logs
+- Open `localhost:5000` to browse and generate logs
 
 ---
 
