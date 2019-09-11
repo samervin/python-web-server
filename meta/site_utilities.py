@@ -15,8 +15,10 @@ import markdown2
 #
 # 'strike' allows strikethrough text like so: ~~strikethrough~~
 
-md = markdown2.Markdown(extras=['markdown-in-html', 'tables', 'strike'])
-md_with_metadata = markdown2.Markdown(extras=['metadata', 'markdown-in-html', 'tables', 'strike'])
+md = markdown2.Markdown(extras=["markdown-in-html", "tables", "strike"])
+md_with_metadata = markdown2.Markdown(
+    extras=["metadata", "markdown-in-html", "tables", "strike"]
+)
 
 
 def md_to_html(md_content: str, md_extras=None):
@@ -28,20 +30,20 @@ def md_with_metadata_to_html(md_content: str):
 
 
 def get_site_html_header():
-    with open('meta/site-header.md') as header:
+    with open("meta/site-header.md") as header:
         content = header.read()
     return md_to_html(content)
 
 
 def get_site_html_footer():
-    with open('meta/site-footer.md') as footer:
+    with open("meta/site-footer.md") as footer:
         content = footer.read()
     return md_to_html(content)
 
 
 def get_site_css_header():
-    with open('meta/site.css') as css_file:
+    with open("meta/site.css") as css_file:
         css_content = css_file.read()
     css_content = csscompressor.compress(css_content)
-    css_header = '<head><style>{}</style></head>'.format(css_content)
+    css_header = "<head><style>{}</style></head>".format(css_content)
     return css_header
