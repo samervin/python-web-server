@@ -20,6 +20,14 @@ From the root directory, run `python -m unittest discover tests`.
 
 ---
 
+## Formatting code and module imports
+
+To format code: From the root directory, run `black . --exclude venv`.
+
+To sort module imports: From the root directory, run `isort --skip venv`, and press `y` at each prompt.
+
+---
+
 ## AWS set up
 
 Note: these directions are not complete and are specific to my requirements. Follow at your own risk.

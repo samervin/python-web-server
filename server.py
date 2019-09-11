@@ -1,8 +1,9 @@
 import flask
+
 import meta
-from meta import site_utilities
-from home import home
 from blog import blog
+from home import home
+from meta import site_utilities
 from resume import resume
 
 server = flask.Flask(__name__)

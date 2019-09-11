@@ -1,7 +1,8 @@
-from datetime import datetime as dt
 import os
-from meta import site_utilities
 from collections import namedtuple
+from datetime import datetime as dt
+
+from meta import site_utilities
 
 Post = namedtuple(
     "Post", ["filename", "url_slug", "markdown", "html", "datetime", "title"]
