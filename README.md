@@ -16,7 +16,9 @@ To start the server locally ([ref](http://flask.pocoo.org/docs/0.12/quickstart/)
 
 ## Running unit tests
 
-From the root directory, run `python -m unittest discover tests`.
+From the root directory, run `python -m unittest discover tests -b`.
+
+If you want to print standard output and error during the test run instead of buffering them, remove the `-b` flag.
 
 ---
 
