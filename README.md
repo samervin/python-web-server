@@ -110,3 +110,11 @@ Depending on the changes you made, you may be done, or you may need to kill the 
 
 - To kill the server: ``kill `cat server.pid` ``
 - Restart the server using the above gunicorn command.
+
+---
+
+## Tools to determine accessibility, security, etc.
+
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) is built into Chrome Dev Tools. You probably don't have to do every single SEO suggestion, nor should you feel obligated to add a service worker (enabling offline access / PWA).
+- Lighthouse also performs some of these checks, but another good resource for performance is [WebPageTest](https://www.webpagetest.org/).
+- You can test your SSL connection and configuration with [SSLTest](https://www.ssllabs.com/ssltest/).
