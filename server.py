@@ -110,7 +110,7 @@ def _create_html_page(*contents):
     page = css_header + site_header
     for content in contents:
         page += content
-    page += site_footer
+    page = '<!DOCTYPE html><html lang="en">' + page + site_footer + "</html>"
     return page
 
 
