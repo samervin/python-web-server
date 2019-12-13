@@ -79,10 +79,24 @@ To set up the Python web server on the EC2 instance ([ref](http://exploreflask.c
 - `gunicorn --bind 0.0.0.0:5000 server:server`
     - You can add `-D` to run as a daemon and `-p server.pid` to save the process ID to a file.
 
+To set up an HTTPS certificate with [Let's Encrypt](https://certbot.eff.org/lets-encrypt/pip-nginx):
+
+- Run the commands specified on the Certbot website:
+    - `wget https://dl.eff.org/certbot-auto`
+    - `sudo mv certbot-auto /usr/local/bin/certbot-auto`
+    - `sudo chown root /usr/local/bin/certbot-auto`
+    - `sudo chmod 0755 /usr/local/bin/certbot-auto`
+- `sudo /usr/local/bin/certbot-auto certonly`
+    - You may need to add a debug flag to get it to run, depending on the flavor of Linux you're using.
+
 To set up Nginx:
 
 - `sudo yum install nginx`
 - Copy and paste the relevant parts of `reference/nginx.conf` into `/etc/nginx/nginx.conf`
+- Copy and paste `reference/nginx.conf` into `/etc/nginx/nginx.conf`.
+    - The server names are hardcoded for my domain. Change these for your own.
+    - The configuration will redirect HTTP to HTTPS and www.domain to the bare domain. If you don't want to do that, you can likely delete sections of the configuration.
+    - I don't know what every option in here does! Feel free to mess with it. I certainly have.
 - `sudo service nginx reload`
 - Now, instead of the previous gunicorn command, run `gunicorn --bind 127.0.0.1:8000 server:server -D -p server.pid`
 
