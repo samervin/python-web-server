@@ -9,7 +9,7 @@ div.flex-between > div {
     margin: 1em
 }
 a:link, a:visited {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #006600;
 }
 a:hover {
