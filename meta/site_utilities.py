@@ -17,7 +17,9 @@ import markdown2
 #
 # 'fenced-code-blocks` allows for unformatted text/code inside of ```triple backticks```
 
-md = markdown2.Markdown(extras=["markdown-in-html", "tables", "strike", "fenced-code-blocks"])
+md = markdown2.Markdown(
+    extras=["markdown-in-html", "tables", "strike", "fenced-code-blocks"]
+)
 md_with_metadata = markdown2.Markdown(
     extras=["metadata", "markdown-in-html", "tables", "strike", "fenced-code-blocks"]
 )
@@ -47,5 +49,5 @@ def get_site_css_header():
     with open("meta/site.css") as css_file:
         css_content = css_file.read()
     css_content = csscompressor.compress(css_content)
-    css_header = '<head><style>{}</style></head>'.format(css_content)
+    css_header = "<head><style>{}</style></head>".format(css_content)
     return css_header
