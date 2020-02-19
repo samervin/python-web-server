@@ -95,3 +95,24 @@ def _get_blog_post_footer_html(post_name):
     footer_html = footer_html.replace("{previous-post-link}", previous_post_link)
     footer_html = footer_html.replace("{next-post-link}", next_post_link)
     return footer_html
+
+
+def get_rss_feed():
+    with open("blog/feed_template.xml") as feed_file:
+        feed_template = feed_file.read()
+    post_list = _get_blog_posts_list()
+    post_list.reverse()
+    item_format = (
+        "<item><title>{}</title><link>{}</link>"
+        "<description>{}</description><pubDate>{}</pubDate></item>"
+    )
+    all_items = ""
+    for post in post_list:
+        formatted_url = "https://samerv.in/blog/{}".format(post.url_slug)
+        truncated_content = "\n".join(post.markdown.splitlines()[5:10])
+        item = item_format.format(
+            post.title, formatted_url, truncated_content, post.datetime
+        )
+        all_items += item
+    feed_template = feed_template.replace("{item-list}", all_items)
+    return feed_template

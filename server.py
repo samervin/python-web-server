@@ -39,6 +39,11 @@ def route_blog_post(post_name):
         return error_404(e)
 
 
+@server.route("/blog/feed.xml")
+def route_blog_feed():
+    return flask.Response(blog.get_rss_feed(), mimetype="text/xml")
+
+
 @server.route("/resume")
 def route_resume():
     resume_html = resume.get_resume_html()

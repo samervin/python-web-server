@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Sam Ervin's Blog</title>
+        <link>https://samerv.in/blog/</link>
+        <description>Sam Ervin's blog posts.</description>
+        <language>en-us</language>
+        {item-list}
+    </channel>
+</rss>
