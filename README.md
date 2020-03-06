@@ -88,6 +88,7 @@ To set up an HTTPS certificate with [Let's Encrypt](https://certbot.eff.org/lets
     - `sudo chmod 0755 /usr/local/bin/certbot-auto`
 - `sudo /usr/local/bin/certbot-auto certonly`
     - You may need to add a debug flag to get it to run, depending on the flavor of Linux you're using.
+- To renew, simply run the certbot again. For me, it's located at `/opt/eff.org/certbot/venv/bin/certbot`.
 
 To set up Nginx:
 
