@@ -21,15 +21,18 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - uses: actions/setup-python@v1.2.0
-    - with:
+    - name: Set up Python
+      uses: actions/setup-python@v1.2.0
+      with:
         python-version: 3.6
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
+    - name: Install dependencies
       run: |
-        python -m venv venv
-        source venv/bin/activate
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Lint and sort imports
+      run: |
         black . --exclude venv
         isort --skip venv
+    - name: Run unit tests
+      run: |
         python -m unittest discover tests -b
