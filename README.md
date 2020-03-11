@@ -2,6 +2,8 @@
 
 A personal web server, written in Python.
 
+![CI](https://github.com/samervin/python-web-server/workflows/CI/badge.svg?branch=master)
+
 To start the server locally ([ref](http://flask.pocoo.org/docs/0.12/quickstart/)):
 
 - Install Python 3. I'm using Python 3.6 locally.
@@ -111,6 +113,14 @@ Depending on the changes you made, you may be done, or you may need to kill the 
 
 - To kill the server: ``kill `cat server.pid` ``
 - Restart the server using the above gunicorn command.
+
+To set up [GoAccess](https://goaccess.io/) for conveniently viewing Nginx logs:
+
+- Assuming you're using Amazon Linux (or another CentOS variant):
+    - `sudo yum install geoip-devel`
+    - `sudo yum install ncurses-devel`
+    - Follow the steps [here](https://goaccess.io/download) to download, extract, and compile.
+- Run `goaccess /var/log/nginx/access.log -c` and follow the prompts.
 
 ---
 
