@@ -1,7 +1,13 @@
 ---
-datetime: 2019-12-12 16:49
+datetime: 2020-06-18 16:49
 title:  Bookmarklets for larger Twitch and YouTube video players
 ---
+
+#### Update 2020/06/18
+
+I added the `parent=player.twitch.tv` section to the Twitch bookmarklet. This is apparently now required for the embedded video player.
+
+#### Originally posted 2019/12/12
 
 Sometimes I'd like to watch a stream on Twitch, or a video on YouTube, in not-quite-fullscreen. I don't need to read Twitch chat or look at "related" videos. But I also don't want to go entirely to fullscreen. I might want to see the clock at all times. I might be using that monitor for other programs some of the time; I don't want to switch out of fullscreen every time I switch programs.
 
@@ -37,14 +43,14 @@ javascript:  // Necessary for executing JS in the browser
         // window.location.href is the URL that you're currently on.
         // There are other ways to manipulate the URL, including ways to do it without reloading the page or saving to your browser history.
         // This keeps it plain and simple.
-        window.location.href = window.location.href.replace("www.twitch.tv/","player.twitch.tv?channel=")  // Replace the URL string...
+        window.location.href = window.location.href.replace("www.twitch.tv/","player.twitch.tv?parent=player.twitch.tv&channel=")  // Replace the URL string...
     })();  // ... close the IIFE, and go!
 ```
 
 Here's the short version:
 
 ```javascript
-javascript:(function(){window.location.href = window.location.href.replace("www.twitch.tv/","player.twitch.tv?channel=")})();
+javascript:(function(){window.location.href = window.location.href.replace("www.twitch.tv/","player.twitch.tv?parent=player.twitch.tv&channel=")})();
 ```
 
 And here's the YouTube version, which tries to avoid one of the many URL parameters you might encounter:
