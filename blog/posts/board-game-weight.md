@@ -15,7 +15,7 @@ I have an unfortunate admission to make, however: when I add new board games to 
 - __Medium__: some decisions, measurable consequences, some mechanic interaction, moderate possibility space
 - __High__: many decisions, large consequences, high mechanic interaction, large possibility space
 
-My threshold for consequences, interaction, and possibility space are certainly moving targets. I'm confident in the weights of some games, though:
+My threshold for consequences, interaction, and possibility space are certainly moving targets. I'm confident in the weights of some games, though. For example:
 
 - [Suspend](https://boardgamegeek.com/boardgame/127784/suspend) is Low: your only decision is "where do I place this piece right now".
 - [Concordia](https://boardgamegeek.com/boardgame/124361/concordia) is High: you must think several turns ahead and watch your opponents' moves to score well.
