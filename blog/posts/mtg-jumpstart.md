@@ -45,7 +45,7 @@ In Commander, everyone constructs a 100-card deck with no duplicates. The 100th 
 
 To their credit, my friends have always been good sports about playing Magic with me. I've built some really fun draft decks. I've played some really fun Commander games, even if I didn't win. And, despite having some smart players, we keep it relatively casual. Miss a draw or make an obvious misplay? No worries, take it back, whatever seems reasonable.
 
-I found myself looking for a format that fit my playstyle better, is all.
+I've gotten better at both draft and commander and have fun playing them now. At the time, I found myself looking for a format that fit my playstyle better, is all.
 
 ### How I got into Jumpstart
 
@@ -110,7 +110,7 @@ It's easiest to see all the art/function tags and search for them on the Tagger 
 
 So you've got a bunch of cards. They fit some theme. What's next?
 
-#### Guidelines for making a Jumpstart pack
+#### Rules for building a Jumpstart pack
 
 How do you know that your deck will work, and will be balanced against the normal Jumpstart packs?*
 
@@ -118,25 +118,25 @@ How do you know that your deck will work, and will be balanced against the norma
 
 To learn more, I turned to the internet, which has all the possible official Jumpstart packs on the [wiki](https://mtg.fandom.com/wiki/Jumpstart) as well as a [subreddit](https://www.reddit.com/r/MTGJumpStart/) dedicated to custom packs. The subreddit lays out guidelines for constructing custom decks. The most relevant posts are the [rules](https://www.reddit.com/r/MTGJumpStart/comments/i5ipi9/community_discussion_rules_for_constructing/) and the [multicolor discussion](https://www.reddit.com/r/MTGJumpStart/comments/iah7so/community_discussion_multicolored_jumpstart_decks/). The "rules" are a little prescriptive, but they helped me come up with my own set of guidelines to follow:
 
-- 0-1 mythics
-- 1-2 total rares
-- 3-5 uncommons
-- 8-9 lands
+- **0-1 mythics**
+- **1-2 total rares**
+- **3-5 uncommons**
+- **8-9 lands**
 
 This matches the distribution of the official packs. Most packs have only one rare, but some have two. Most packs have 8 lands, but a few with higher mana curves (or fewer options) have 9.
 
-- 6-9 creatures
-- 4-5 instants, sorceries, enchantments, artifacts
-- 0-1 duplicate spells
+- **6-9 creatures**
+- **4-5 instants, sorceries, enchantments, artifacts**
+- **0-1 duplicate spells**
 
 Official Jumpstart packs focus on creatures. The game is combat-focused, right, so the focus is natural. Creatures provide the game with inevitability: if you play more creatures than your opponent, you will eventually win through combat. The bulk of non-creature spells will hurt your opponent's creatures or buff your creatures, both helping you contest the board.
 
 Reducing duplicate spells increases variety and lets you pick more cards in a theme.
 
-- Center curve on 2-5 cost creatures
-- Be careful with MM costs
-- Avoid MMM costs
-- Avoid MN (multicolor) costs unless you know what you're doing
+- **Center curve on 2-5 cost creatures**
+- **Be careful with MM costs**
+- **Avoid MMM costs**
+- **Avoid MN (multicolor) costs unless you know what you're doing**
 
 The first rule codifies the focus on creatures that can be played in the midgame. Faster or slower themes can adjust this, of course.
 
@@ -148,18 +148,18 @@ Multicolor is a tough one. There's only one official multicolor pack, and it's a
 
 I think it would be possible to build a list with one primary color and one secondary color. You'd only include a few cards that needed the secondary color, near the top of your mana curve. Then, you could include a few lands to provide fixing without breaking the bank or the deck. I haven't tested this, though&mdash;none of my lists are two-color.
 
-- 2+ removal spells
-    - 0* board wipes
-- 1+ ways to win
+- **2+ removal spells**
+- **0+ board wipes**
+- **1+ ways to win**
 
 Removal spells are important for breaking through board stalls, though board wipes should be hard to find&mdash;they're a little too strong for the format. Use your judgement here. Also, if your creatures are cheap, pick removal spells that are expensive, and vice versa. This smooths out your mana curve and gives slow decks a fighting chance against a fast start.
 
 What's a "way to win"? This is vague. The simplest way to win is to stick a big creature on the board and attack with it. Some other ways to win include Planeswalkers ([Chandra](https://scryfall.com/card/m21/135/chandra-heart-of-fire)'s third ability) and milling ([Teferi's Tutelage](https://scryfall.com/card/m21/78/teferis-tutelage) in a long game). Again, use your judgement here.
 
-- 0 double-sided cards
-- 0 permanents with indestructible, shadow, etc.
-- 0 land destruction
-- 0 color-screw effects
+- **0 double-sided cards**
+- **0 permanents with indestructible, shadow, etc.**
+- **0 land destruction**
+- **0 color-screw effects**
 
 Zero double-sided cards is a complexity/logistical preference. The sleeves I use are fully transparent, so if I wanted to shuffle a double-sided card into the deck, I'd need a dummy/marker card for it. In the future, I'll consider some of the simpler double-sided cards (with lands on the back, like [Akoum Warrior](https://scryfall.com/card/znr/134/akoum-warrior-akoum-teeth)), or maybe some of the very spectacular [meld](https://scryfall.com/search?q=is%3Ameld) cards. I'll probably stay away from the [Strixhaven deans](https://scryfall.com/search?q=set%3Astx+Dean), though.
 
