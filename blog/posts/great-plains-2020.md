@@ -179,7 +179,7 @@ I didn't play Hoard, instead I ate lunch. But I heard that Hoard was bad, quote:
 
 #### [Lowlands](https://boardgamegeek.com/boardgame/242804/lowlands)
 
-Lowlands is a heavy worker placement game about farmers in northern Europe tending sheep and fighting high waters. Over a series of rounds, you'll accumulate resources, construct buildings, buy and sell sheep, and contribute to the dike. If the dike, a communal wall holding back the sea, is not build high enough, it will periodically cause damage to players.
+Lowlands is a heavy worker placement game about farmers in northern Europe tending sheep and fighting high waters. Over a series of rounds, you'll accumulate resources, construct buildings, buy and sell sheep, and contribute to the dike. If the dike, a communal wall holding back the sea, is not built high enough, it will periodically cause damage to players.
 
 It looks like Agricola, but in the Netherlands, and with only sheep. Apparently Uwe Rosenberg helped with the design, so the comparison makes sense. Lowlands is meaty, but its huge possibility space is constrained by the fact that you only have 3 workers and only five spaces to put them on (not shared by other players). You essentially have 18 "placements" spread over 6 rounds to maximize your points.
 
