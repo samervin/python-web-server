@@ -1,7 +1,13 @@
 ---
-datetime: 2021-07-15 23:00
+datetime: 2021-09-17 06:00
 title: MTG Jumpstart, a fun way to play and build decks
 ---
+
+#### Update 2021/09/17
+
+Added a link to Moxfield and updated formatting.
+
+#### Originally posted 2021/07/15
 
 [Jumpstart](https://magic.wizards.com/en/products/jumpstart) is the best thing to happen to Magic since I've been playing. It's a great balance between cool cards and themes, power and complexity level, and cost.
 
@@ -187,6 +193,8 @@ The folks at Burger Tokens (the same company where I bought my deckboxes) have a
 
 The box I had on hand to store the Burger Tokens deck boxes was a [BCW Monster](https://www.bcwsupplies.com/monster-storage-box-3200-cards), which will hold 88 packs (four rows of 22 packs each). Right now I have 40 deck boxes in there, taking up most of two rows, with the other two rows filled out by empty boxes and a small container of dice. Any similar card storage would do for the deck boxes, of course, but this is a good size for holding everything for now. BCW boxes are cheap, sturdy, and I have a bunch of them stashed away.
 
+---
+
 ### My custom Jumpstart lists
 
 ~~I keep all my deck lists in Scryfall. For all its usefulness, it's not the best place to organize a lot of deck lists, but minimizing the number of websites I need to use is worth it.~~
@@ -196,6 +204,8 @@ __Update:__ I still do the first stage of deck brewing in Scryfall. It's the bes
 This means that all my finalized deck lists are public on [my Moxfield profile](https://www.moxfield.com/users/samervin), so head over there to see what I've brewed! There's no specific organization on the profile page (I believe decks are sorted by date last updated). Each deck has a very short "primer" that I use to document any synergies or themes that you might not catch just from the name of the deck.
 
 While I liked building every list, my favorites are the somewhat unexpected ones, like [Runes](https://www.moxfield.com/decks/oTe6dSiF1EOvFiRJgtA__g) or [Dying](https://www.moxfield.com/decks/9nizAzkC9UqEidEtePl3Iw) or [Dogs With Jobs](https://www.moxfield.com/decks/6j2z6AVN4k-RexIn1gVCKQ), which pull from multiple sets or just focus on a hyper-specific set of cards.
+
+---
 
 ### Conclusions
 
