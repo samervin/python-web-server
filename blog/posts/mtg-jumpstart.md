@@ -9,6 +9,8 @@ I'd like to tell you about how I started playing Magic, how I got interested in 
 
 Let's get started.
 
+---
+
 ### How I started playing
 
 #### Introduction to Magic
@@ -47,6 +49,8 @@ To their credit, my friends have always been good sports about playing Magic wit
 
 I've gotten better at both draft and commander and have fun playing them now. At the time, I found myself looking for a format that fit my playstyle better, is all.
 
+---
+
 ### How I got into Jumpstart
 
 #### Jumpstart release
@@ -79,6 +83,8 @@ Then it came time to open the box. The Wizards-designed packs are great, and hav
 Once I got through the box, though, I realized a couple of things. The first was that I wanted more decks. Buying more random boosters was probably not going to be worthwhile: a box of Jumpstart is more than $100 and might include duplicates. (I got one exact duplicate in my box and another handful of duplicate themes with slightly different lists.) The second was that I wanted to make my own decks, to incorporate cards I've seen and wanted to play.
 
 It couldn't be that hard, right?
+
+---
 
 ### Custom Jumpstart
 
@@ -183,25 +189,13 @@ The box I had on hand to store the Burger Tokens deck boxes was a [BCW Monster](
 
 ### My custom Jumpstart lists
 
-I keep all my deck lists in Scryfall. For all its usefulness, it's not the best place to organize a lot of deck lists, but minimizing the number of websites I need to use is worth it. You can click the links below to see my first round of decks. Note: I haven't actually played with every deck at the time of writing, so don't take any of them for granted!
+~~I keep all my deck lists in Scryfall. For all its usefulness, it's not the best place to organize a lot of deck lists, but minimizing the number of websites I need to use is worth it.~~
 
-- [White Knights](https://scryfall.com/@samervin/decks/20ae2f00-4f41-443a-9bdb-d63514d7cebd)
-- [White Dinosaurs](https://scryfall.com/@samervin/decks/f54dbd41-ac28-4d33-b4f8-8857da3157e0)
-- [White Battalion](https://scryfall.com/@samervin/decks/f98d0e22-8bc0-4807-b685-169a8a7db1b7)
-- [Blue Sea Creatures](https://scryfall.com/@samervin/decks/f5a3a36e-d9ea-4e1a-8894-df11723a6325)
-- [Blue Foretell](https://scryfall.com/@samervin/decks/8bf13d0a-d84b-49a9-bee5-c781ff1362b7)
-- [Blue Energy](https://scryfall.com/@samervin/decks/6fb2f70f-6350-4bae-9591-567d4c7831a4)
-- [Black Minus One](https://scryfall.com/@samervin/decks/e3954235-7dbc-478a-8946-dda7bb329772)
-- [Black Party](https://scryfall.com/@samervin/decks/ff29ebc7-af95-48b4-9103-60facf3a7165)
-- [Black Enchantments](https://scryfall.com/@samervin/decks/c3cd4bd0-6fd1-47d8-a307-519a58146c3a)
-- [Red Mentor](https://scryfall.com/@samervin/decks/60d4e4e0-9edc-494e-8cfc-b0de4b2304e9)
-- [Red Samurai](https://scryfall.com/@samervin/decks/3706303b-7699-4020-bccd-8f58ddc2504f)
-- [Red Cycling](https://scryfall.com/@samervin/decks/3fddf040-a726-45b8-b0b2-6a11981f2cd1)
-- [Green Mutate](https://scryfall.com/@samervin/decks/a3b61baf-f97a-4787-b05f-9b3d52c7571a)
-- [Green Spiders](https://scryfall.com/@samervin/decks/09fa353c-2ab8-4594-bf78-fba5c5d49324)
-- [Green Bears](https://scryfall.com/@samervin/decks/8e06fea7-4887-41b3-9e7d-32768251b622)
-- [Multicolor Gates](https://scryfall.com/@samervin/decks/65dddc85-06e6-4ab2-b160-eee04c5b5879)
-- [Multicolor Modular](https://scryfall.com/@samervin/decks/80080fc9-cd73-4f0e-baee-822b9838e1c4)
+__Update:__ I still do the first stage of deck brewing in Scryfall. It's the best place to create an unbounded list while searching for cards that might fit. It falters when it comes more intricate deck-building, as well as organization and accessibility. I now export deck lists to [Moxfield](https://www.moxfield.com/) once I'm ready to make cuts and finalize the list.
+
+This means that all my finalized deck lists are public on [my Moxfield profile](https://www.moxfield.com/users/samervin), so head over there to see what I've brewed! There's no specific organization on the profile page (I believe decks are sorted by date last updated). Each deck has a very short "primer" that I use to document any synergies or themes that you might not catch just from the name of the deck.
+
+While I liked building every list, my favorites are the somewhat unexpected ones, like [Runes](https://www.moxfield.com/decks/oTe6dSiF1EOvFiRJgtA__g) or [Dying](https://www.moxfield.com/decks/9nizAzkC9UqEidEtePl3Iw) or [Dogs With Jobs](https://www.moxfield.com/decks/6j2z6AVN4k-RexIn1gVCKQ), which pull from multiple sets or just focus on a hyper-specific set of cards.
 
 ### Conclusions
 
